@@ -34,6 +34,6 @@
                 <source-file src="src/android/aspectjrt.jar" target-dir="aspectj/lib/" />
                 <source-file src="src/android/aspectjtools.jar" target-dir="aspectj/lib/" />
                 <source-file src="src/android/aspectjweaver.jar" target-dir="aspectj/lib/" />
-                <source-file src="src/android/custom_rules.xml" />
+                <source-file src="src/android/custom_rules.xml" target-dir="src/com/feedhenry/plugins/monkeytalk"/>
         </platform>
 </plugin>
