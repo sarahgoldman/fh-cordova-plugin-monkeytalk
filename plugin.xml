@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="com.feedhenry.plugins.monkeytalk"
-        version="0.0.3">
+        version="0.0.4">
 
         <name>MonkeyTalk</name>
 
@@ -17,7 +17,7 @@
 
         <!-- ios -->
         <platform name="ios">
-                <source-file src="src/ios/libMonkeyTalk-2.0.3.a" framework="true" />
+                <source-file src="src/ios/libMonkeyTalk-2.0.10.a" framework="true" />
                 <framework src="libstdc++.6.0.9.dylib" />
                 <framework src="libsqlite3.dylib" />
                 <framework src="CFNetwork.framework" />
@@ -30,7 +30,7 @@
                         <uses-permission android:name="android.permission.INTERNET" />
                         <uses-permission android:name="android.permission.GET_TASKS" />
                 </config-file>
-                <source-file src="src/android/monkeytalk-agent.jar" target-dir="libs/" />
+                <source-file src="src/android/monkeytalk-agent-2.0.10.jar" target-dir="libs/" />
                 <source-file src="src/android/aspectjrt.jar" target-dir="aspectj/lib/" />
                 <source-file src="src/android/aspectjtools.jar" target-dir="aspectj/lib/" />
                 <source-file src="src/android/aspectjweaver.jar" target-dir="aspectj/lib/" />
