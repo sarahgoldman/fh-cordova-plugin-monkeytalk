@@ -25,7 +25,6 @@
         </platform>
 
         <!-- android -->
-<!-- 
         <platform name="android">
                 <config-file target="AndroidManifest.xml" parent="/manifest">
                         <uses-permission android:name="android.permission.INTERNET" />
@@ -35,7 +34,6 @@
                 <source-file src="src/android/aspectjrt.jar" target-dir="aspectj/lib/" />
                 <source-file src="src/android/aspectjtools.jar" target-dir="aspectj/lib/" />
                 <source-file src="src/android/aspectjweaver.jar" target-dir="aspectj/lib/" />
-                <source-file src="src/android/custom_rules.xml" target-dir=""/>
+                <source-file src="src/android/custom_rules.xml" />
         </platform>
--->
 </plugin>
