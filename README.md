@@ -4,7 +4,7 @@
  
 1. Open Terminal
 2. Navigate to cordova project directory 
-3. Install MonkeyTalk plugin from github fork using the cordova command-line interface
+3. Install MonkeyTalk plugin from github using the cordova command-line interface
 
 ```
 $ cordova plugin add https://github.com/sarahgoldman/fh-cordova-plugin-monkeytalk.git
